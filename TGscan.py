@@ -649,12 +649,12 @@ def main():
                 with open(file_path, 'a', encoding='utf-8') as leakfile_daily:
                     pass
 
-            #check_and_send_txt_files(".txt", start_date)
-            #driver.quit()
-            #check_and_send_txt_files(".zip", start_date)
-            #driver.quit()
-            #check_and_send_txt_files(".rar", start_date)
-            #driver.quit()
+            check_and_send_txt_files(".txt", start_date)
+            driver.quit()
+            check_and_send_txt_files(".zip", start_date)
+            driver.quit()
+            check_and_send_txt_files(".rar", start_date)
+            driver.quit()
             time.sleep(2)
             read_txt_files()
             time.sleep(12)
