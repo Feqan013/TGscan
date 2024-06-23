@@ -35,7 +35,7 @@ Yüklənmə prosesi:
 
 https://github.com/Feqan013/TGscan/assets/63374185/45986bf4-3e4a-4d1f-a5cd-48b67f8c870b
 # 2)Keyword Search
-APT və Hacker qruplarında hədəf keywordlərlə bağlı yeni mesaj paylaşıldığı zaman telegram üzərindən mesaj göndərərək məlumatlandırır. DDOS hücumları və data breachlər haqqında tez məlumat almaq üçün istifadə edilir. Standart olaraq 5 dəqiqə intervalla axtarış edir. 7/24 işləməsi üçün nəzərdə tutlub.
+APT və Hacker qruplarında hədəf keywordlərlə bağlı yeni mesaj paylaşıldığı zaman telegram üzərindən bot vasitəsilə mesaj göndərərək məlumatlandırır. DDOS hücumları və data breachlər haqqında tez məlumat almaq üçün istifadə edilir. Standart olaraq 5 dəqiqə intervalla axtarış edir. 7/24 işləməsi üçün nəzərdə tutlub.
 İstifadə etmək üçün -k flagindən istifadə edilir:
 ```bash
 python.exe TGscan.py -k ".az" "Azerbaijani" "test.az" ---- Göstərilən keywordlərlə bağlı hər-hansısa yeni mesaj paylaşılarsa istifadəçi məlumatlandırılacaq.
